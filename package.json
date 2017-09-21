@@ -1,0 +1,28 @@
+{
+  "name": "procodea",
+  "version": "1.0.0",
+  "description": "Little Business accounting and revenue system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirArreaza/ProCodeA.git"
+  },
+  "author": "Amir Arreaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirArreaza/ProCodeA/issues"
+  },
+  "homepage": "https://github.com/AmirArreaza/ProCodeA#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "dateformat": "^2.0.0",
+    "express": "^4.15.4",
+    "file-system": "^2.2.2",
+    "mongoose": "^4.11.11",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.7.0"
+  }
+}

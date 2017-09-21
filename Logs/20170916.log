@@ -1,0 +1,44 @@
+20170916 15:03:52 20 [VERBOSE] Verbose info
+20170916 15:03:52 21 [INFO] Hello world
+20170916 15:03:52 22 [WARN] Warning message
+20170916 15:03:52 22 [ERROR] Error info
+20170916 15:03:52 22 [INFO] development
+20170916 15:10:14 52 [VERBOSE] Verbose info
+20170916 15:10:14 53 [INFO] Hello world
+20170916 15:10:14 53 [WARN] Warning message
+20170916 15:10:14 53 [ERROR] Error info
+20170916 15:10:14 53 [INFO] development
+20170916 15:10:41 98 [VERBOSE] Verbose info
+20170916 15:10:41 98 [INFO] Hello world
+20170916 15:10:41 98 [WARN] Warning message
+20170916 15:10:41 99 [ERROR] Error info
+20170916 15:10:41 99 [INFO] development
+20170916 15:11:43 18 [VERBOSE] Verbose info
+20170916 15:11:43 18 [INFO] Hello world
+20170916 15:11:43 18 [WARN] Warning message
+20170916 15:11:43 18 [ERROR] Error info
+20170916 15:11:43 18 [INFO] development
+20170916 15:14:43 52 [VERBOSE] Verbose info
+20170916 15:14:43 52 [INFO] Hello world
+20170916 15:14:43 52 [WARN] Warning message
+20170916 15:14:43 52 [ERROR] Error info
+20170916 15:14:43 53 [INFO] development
+20170916 15:15:13 99 [VERBOSE] Verbose info
+20170916 15:15:13 99 [INFO] Hello world
+20170916 15:15:13 99 [WARN] Warning message
+20170916 15:15:13 99 [ERROR] Error info
+20170916 15:15:13 99 [INFO] development
+20170916 15:22:54 78 [DEBUG] Debugging info
+20170916 15:22:54 79 [VERBOSE] Verbose info
+20170916 15:22:54 79 [INFO] Hello world
+20170916 15:22:54 79 [WARN] Warning message
+20170916 15:22:54 79 [ERROR] Error info
+20170916 15:22:54 79 [INFO] development
+20170916 15:22:54 79 [DEBUG] todo list RESTful API server started on: 3000
+20170916 15:23:42 53 [DEBUG] Debugging info
+20170916 15:23:42 54 [VERBOSE] Verbose info
+20170916 15:23:42 54 [INFO] Hello world
+20170916 15:23:42 54 [WARN] Warning message
+20170916 15:23:42 54 [ERROR] Error info
+20170916 15:23:42 54 [INFO] development
+20170916 15:23:42 54 [DEBUG] todo list RESTful API server started on: 3000
