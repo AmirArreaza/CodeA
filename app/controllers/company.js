@@ -36,7 +36,10 @@ exports.add = function(req, res){
         session   : req.session      
       });
     }else{
-      res.send(JSON.stringify(newCompany + req.body));
+      res.render('Company/new', {
+        company   : newCompany,
+        session   : req.session
+      });
     }
   });
 }
