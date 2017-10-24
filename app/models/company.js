@@ -4,10 +4,10 @@ var mongoose = require('mongoose');
 
 //Company Schema
 var companySchema = mongoose.Schema({
-  company_number: { Name: 'Company Number', type: Number},
-  company_name:           String,
-  company_email:          String,
-  company_phone:          String,
+  company_number: { Name: 'Number', type: Number},
+  company_name:   { Name: 'Name',   type: String},
+  company_email:  { Name: 'Email',   type: String},
+  company_phone:  { Name: 'Phone',   type: String},
   created_date:   { type: Date, default: Date.now },
   updated_date:   Date
 });

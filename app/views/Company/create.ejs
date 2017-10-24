@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/form-elements.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <!-- CSS -->
+
+    <title>Create a new Company</title>
+  </head>
+  <body>
+    <h1>Company</h1>
+    <h3>Create a new Company</h3>
+    </br>
+    
+    <% if (error.length > 0) { %>
+      <div class="alert alert-danger">
+        <%- error %>
+      </div>
+    <% } %>
+    
+    <form role="form" action="/Company/create" method="post">
+      <div class="form-group">
+        <label for="company_number" >Company Number</label>
+        <input id="company_number" name="company_number"/>
+        
+        <label for="company_email" >Company Email</label>
+        <input id="company_email" name="company_email"/>
+        
+        <label for="company_name" >Company Name</label>
+        <input id="company_name" name="company_name"/>
+        
+        <label for="company_phone" >Company Phone</label>
+        <input id="company_phone" name="company_phone"/>
+      </div>
+      <button type="submit" class="btn">Create!</button>
+    </form>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"/>
+    <script src="/js/scripts.js"/>
+  </body>
+</html>
