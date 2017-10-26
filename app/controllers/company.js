@@ -4,6 +4,21 @@ var Company = mongoose.model('Companies');
 var logger = require('../../config/ConfigLog.js')(logger, env);
 var env = process.env.NODE_ENV || 'development';
 
+exports.index = function(req, res){
+  logger.info("Entering Compnay Index function");
+  var arrCompanies = [];
+  Company.find({}, function(err, companies){
+    companies.forEach(function(company){
+      arrCompanies.push(company);
+    });
+    logger.info(arrCompanies.length + " companies found");
+    res.render('Company/index', {
+      map       : arrCompanies,
+      session   : req.session
+    });
+  });
+}
+
 exports.create = function(req, res){
 
   if (req.session.company) {

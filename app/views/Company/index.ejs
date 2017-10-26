@@ -12,22 +12,13 @@
     <link rel="stylesheet" href="/css/style.css"/>
     <!-- CSS -->
 
-    <title>New Company created successfully!</title>
+    <title>Current companies list</title>
   </head>
   <body>
   
-    <h1>Company Blah... <%- company.company_name %></h1>
-    
-    
-    <h5>Number: <%- company.company_number %></h5>
-    <h5>Email: <%- company.company_email %></h5>
-    <h5>Phone: <%- company.company_phone %></h5>
-    <h5>Date: <%- company.created_date %></h5>
-  
-    <li><a href="Create">Back</a></li>
-  
+    <% for(var i=0; i<map.length; i++) { %>
+        <h5><%= map[i].company_name%></h5>
+        <br/>
+    <% } %>
   </body>
 </html>
-
-
-  
